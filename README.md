@@ -1,5 +1,5 @@
 # Spotify
-in the project directory, you can run:
+In the project directory, you can run:
 your live server extension 'Live Server'
 
 Open the .html file with "Go Live"
