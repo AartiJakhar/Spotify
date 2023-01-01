@@ -56,8 +56,9 @@ body{
     background-position: center;
     background-size: cover;
     color: white;
-    height: 33rem;
+    height: 100vh;
     display: flex;
+    flex-wrap: wrap;
    
 }
 .songlist {
@@ -119,17 +120,6 @@ body{
     font-size: 2rem;
     padding: 4px;
 }
-@media(max-width:995px){
-    .navbar-top li a{
-        display: none;
-    }
-    .brand{
-        display: flex;
-        align-items: center;
-        margin: auto;
-    }
-
-}
 #myProgressBar{
     background-color: transparent;
 }
@@ -139,9 +129,29 @@ body{
 #mainCard{
     background-color: transparent;
     margin-top:6rem;
-    height: 333px;
-    width: 333px;
+    width: 100vh;
 
     font-weight: 700;
     text-align: center;
+}
+@media(max-width:995px){
+    #myProgressBar{
+        width: 50vh;
+    }
+    .navbar-top li a{
+        display: none;
+    }
+    .brand{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+  .songItem{
+    width:20rem ;
+    margin: 1rem 0rem;
+  }
+  #mainCard{
+    margin-top:0rem;
+  
+}
 }
